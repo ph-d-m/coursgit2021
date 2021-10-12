@@ -8,6 +8,8 @@
   background-color: bisque;
 }
 
+
+
 #resolution:after {
   content: "XS < 576";
 }
