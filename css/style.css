@@ -1,0 +1,59 @@
+#resolution {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  background-color: bisque;
+}
+
+#resolution:after {
+  content: "XS < 576";
+}
+
+@media (min-width: 576px) {
+  #resolution {
+    background-color: aqua;
+  }
+
+  #resolution:after {
+    content: "XS > 576";
+  }
+}
+@media (min-width: 768px) {
+  #resolution {
+    background-color: #00ff88;
+  }
+
+  #resolution:after {
+    content: "576 < MD >768";
+  }
+}
+@media (min-width: 992px) {
+  #resolution {
+    background-color: #bbff00;
+  }
+
+  #resolution:after {
+    content: "768 < LG > 992";
+  }
+}
+@media (min-width: 1200px) {
+  #resolution {
+    background-color: #ffa600;
+  }
+
+  #resolution:after {
+    content: "992 < XL > 1200";
+  }
+}
+@media (min-width: 1400px) {
+  #resolution {
+    background-color: #ff1e00;
+  }
+
+  #resolution:after {
+    content: "1200 < XXL > 1400";
+  }
+}
