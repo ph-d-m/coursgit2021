@@ -8,7 +8,12 @@
   background-color: bisque;
 }
 
-
+.enis {
+  background-color: #bbff00;
+  color: #bbff00;
+  width: auto;
+  height: 80px;
+}
 
 #resolution:after {
   content: "XS < 576";
